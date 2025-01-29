@@ -1,0 +1,6 @@
+ldr A, $4
+				ldr A, (A)
+				jlt D
+				ldr D, (A)
+				jmp
+				str (A), D
